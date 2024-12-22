@@ -1,0 +1,125 @@
+:root{
+    --bule--:#049bc8;
+    --gray--:#89898a;
+}
+.brand{
+    text-decoration: none;
+    color: #67b8ce;
+    font-size: larger;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.lagn{
+    background-image: linear-gradient(#038ebc,#0396c4,#03a5d1,#04b2d9,#04d0f4);
+    height: 40vh;
+    width: 500px;
+    border-radius: 5% 0 30% 50%;
+    overflow: hidden;
+    float: right;
+    position: relative;
+    top: -80px;
+}
+.doctors{
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+}
+.f-btn{
+    z-index: 1;
+    margin-right: 10px;
+}
+ul{
+    margin-left: 20%;
+}
+.first{
+    height: 55vh;
+}
+.header{
+    margin-left: 50px;
+}
+.header, .thrid p{
+    width: 400px;
+    color: var(--gray--);
+    margin-bottom: 10px;
+}
+.thrid p{
+    width: 400px;
+    color: var(--gray--);
+    margin-bottom: 10px;
+}
+.header h1{
+    text-transform: capitalize;
+}
+.same,.main p{
+    color: #0b6e84;
+    font-size: 10px;
+}
+.second{
+    background-color: #def5f8;
+    padding: 40px 20px 90px 0;
+}
+.second div{
+    height: 36vh;
+}
+.thrid  img{
+    width: 400px;
+}
+.fivth img{
+    width: 400px;
+}
+.main{
+    background-color: #038ebc;
+    width: 800px;
+    height: 30vh;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-left: 20%;
+}
+.main img{
+    width: 400px;
+}
+.sixth img{
+    width: 150px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.sixth .all div{
+    background-color: #038eba;
+    border-radius: 40px; 
+    padding: 5px 30px; 
+    text-align: center;
+}
+.sixth .all div h5{
+    color: white;
+}
+footer{
+    background-color: #038eba;
+    height: 10vh;
+    margin-top: 60px;
+}
+footer span{
+    color: #6bc7e1;
+}
+@media (max-width:1000px){
+    .lagn{
+        width: 100%;
+        border-radius: 0 0 10% 10%;
+        z-index: -1;
+    }
+    .first{
+        height: 95vh;
+    }    
+    .second{
+        height: 85vh;
+    }
+    .second div{
+        height: 36vh;
+        
+    }
+}
+.hell{
+    height: 50vh;
+    background-color: #0b6e84;
+    display: grid;
+    align-content: center;
+}
